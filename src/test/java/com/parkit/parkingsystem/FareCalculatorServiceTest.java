@@ -1,19 +1,29 @@
 package com.parkit.parkingsystem;
 
 import com.parkit.parkingsystem.constants.Fare;
+import static org.mockito.ArgumentMatchers.*;
 import com.parkit.parkingsystem.constants.ParkingType;
+import com.parkit.parkingsystem.dao.TicketDAO;
 import com.parkit.parkingsystem.model.ParkingSpot;
 import com.parkit.parkingsystem.model.Ticket;
 import com.parkit.parkingsystem.service.FareCalculatorService;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.when;
 
 import java.util.Date;
 
+@ExtendWith(MockitoExtension.class)
 public class FareCalculatorServiceTest {
+	
+	@Mock
+	TicketDAO ticketDAO;
 
     private static FareCalculatorService fareCalculatorService;
     private Ticket ticket;
@@ -50,6 +60,7 @@ public class FareCalculatorServiceTest {
         ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.BIKE,false);
 
         ticket.setInTime(inTime);
+        
         ticket.setOutTime(outTime);
         ticket.setParkingSpot(parkingSpot);
         fareCalculatorService.calculateFare(ticket);
@@ -97,6 +108,20 @@ public class FareCalculatorServiceTest {
     }
 
     @Test
+    public void calculateFareCarWithLessThanOneThirtyMinutesParkingTime() {
+        Date inTime = new Date();
+        inTime.setTime( System.currentTimeMillis() - (  30 * 60 * 1000) );//30 minutes parking time should give 0 parking fare
+        Date outTime = new Date();
+        ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR,false);
+
+        ticket.setInTime(inTime);
+        ticket.setOutTime(outTime);
+        ticket.setParkingSpot(parkingSpot);
+        fareCalculatorService.calculateFare(ticket);
+        assertEquals( (0.75 * Fare.CAR_RATE_FIRST_THIRTY_MINUTES) , ticket.getPrice());
+    }
+    
+    @Test
     public void calculateFareCarWithLessThanOneHourParkingTime(){
         Date inTime = new Date();
         inTime.setTime( System.currentTimeMillis() - (  45 * 60 * 1000) );//45 minutes parking time should give 3/4th parking fare
@@ -124,4 +149,18 @@ public class FareCalculatorServiceTest {
         assertEquals( (24 * Fare.CAR_RATE_PER_HOUR) , ticket.getPrice());
     }
 
+    @Test
+    public void calculateFareCarWithLessThanOneHourParkingTimeAndDiscount(){
+        Date inTime = new Date();
+        inTime.setTime( System.currentTimeMillis() - (  45 * 60 * 1000) );//should give 95% of the price of a normal 45 minutes parking fare
+        Date outTime = new Date();
+        ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR,false);
+        ticket.setPrice(0);
+        ticket.setInTime(inTime);
+        ticket.setOutTime(outTime);
+        ticket.setParkingSpot(parkingSpot);
+        
+        fareCalculatorService.calculateFare(ticket);
+        assertEquals( (0.75 * Fare.CAR_RATE_PER_HOUR)*0.95 , ticket.getPrice());
+    }
 }

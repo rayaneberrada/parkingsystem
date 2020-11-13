@@ -1,0 +1,1158 @@
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:33 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:34 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:34 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 15:53:34 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:34 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+ERROR | 2020-10-14 15:53:34 | [main] service.ParkingService (ParkingService.java:119) - Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "com.parkit.parkingsystem.model.Ticket.getFirstTime()" is null
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:27) ~[classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:108) ~[classes/:?]
+	at com.parkit.parkingsystem.integration.ParkingDataBaseIT.testParkingLotExit(ParkingDataBaseIT.java:79) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229) ~[junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197) ~[junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:137) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+INFO  | 2020-10-14 15:53:34 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:34 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 15:53:34 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:34 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:34 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 15:53:35 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:00:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:00:59 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:00 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:07 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:08 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:01:09 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:56 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+ERROR | 2020-10-14 16:15:58 | [main] service.ParkingService (ParkingService.java:120) - Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "com.parkit.parkingsystem.model.Ticket.getFirstTime()" is null
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:27) ~[classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:109) ~[classes/:?]
+	at com.parkit.parkingsystem.integration.ParkingDataBaseIT.testParkingLotExit(ParkingDataBaseIT.java:79) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229) ~[junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197) ~[junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:137) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:15:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:16:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:15 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:16 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:16 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:16 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:16 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+ERROR | 2020-10-14 16:17:17 | [main] service.ParkingService (ParkingService.java:120) - Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "com.parkit.parkingsystem.model.Ticket.getFirstTime()" is null
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:27) ~[classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:109) ~[classes/:?]
+	at com.parkit.parkingsystem.integration.ParkingDataBaseIT.testParkingLotExit(ParkingDataBaseIT.java:79) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229) ~[junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197) ~[junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:137) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:17 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:51 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:52 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+ERROR | 2020-10-14 16:17:53 | [main] service.ParkingService (ParkingService.java:120) - Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "com.parkit.parkingsystem.model.Ticket.getFirstTime()" is null
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:27) ~[classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:109) ~[classes/:?]
+	at com.parkit.parkingsystem.integration.ParkingDataBaseIT.testParkingLotExit(ParkingDataBaseIT.java:80) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229) ~[junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197) ~[junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:137) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:17:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:53 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:54 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+ERROR | 2020-10-14 16:19:55 | [main] service.ParkingService (ParkingService.java:120) - Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "com.parkit.parkingsystem.model.Ticket.getFirstTime()" is null
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:27) ~[classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:109) ~[classes/:?]
+	at com.parkit.parkingsystem.integration.ParkingDataBaseIT.testParkingLotExit(ParkingDataBaseIT.java:79) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229) ~[junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197) ~[junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:137) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:19:55 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:41 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:42 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+ERROR | 2020-10-14 16:20:43 | [main] service.ParkingService (ParkingService.java:121) - Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "com.parkit.parkingsystem.model.Ticket.getFirstTime()" is null
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:27) ~[classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:110) ~[classes/:?]
+	at com.parkit.parkingsystem.integration.ParkingDataBaseIT.testParkingLotExit(ParkingDataBaseIT.java:79) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.1.jar:5.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229) ~[junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197) ~[junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:137) [junit-platform-launcher-1.5.1.jar:1.5.1]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 16:20:43 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:56 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:57 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:46:58 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:05 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:48:06 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:02 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:02 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:02 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:03 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:14) - Create DB connection
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:46) - Closing Result Set
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:35) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:04 | [main] config.DataBaseTestConfig (DataBaseTestConfig.java:24) - Closing DB connection
+INFO  | 2020-10-14 18:53:29 | [main] parkingsystem.App (App.java:10) - Initializing Parking System
+INFO  | 2020-10-14 18:53:29 | [main] service.InteractiveShell (InteractiveShell.java:14) - App initialized!!!
+INFO  | 2020-10-14 18:53:34 | [main] config.DataBaseConfig (DataBaseConfig.java:13) - Create DB connection
+INFO  | 2020-10-14 18:53:35 | [main] config.DataBaseConfig (DataBaseConfig.java:45) - Closing Result Set
+INFO  | 2020-10-14 18:53:35 | [main] config.DataBaseConfig (DataBaseConfig.java:34) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:35 | [main] config.DataBaseConfig (DataBaseConfig.java:23) - Closing DB connection
+INFO  | 2020-10-14 18:53:43 | [main] config.DataBaseConfig (DataBaseConfig.java:13) - Create DB connection
+INFO  | 2020-10-14 18:53:43 | [main] config.DataBaseConfig (DataBaseConfig.java:34) - Closing Prepared Statement
+INFO  | 2020-10-14 18:53:43 | [main] config.DataBaseConfig (DataBaseConfig.java:23) - Closing DB connection
+INFO  | 2020-10-14 18:53:43 | [main] config.DataBaseConfig (DataBaseConfig.java:13) - Create DB connection
+INFO  | 2020-10-14 18:53:43 | [main] config.DataBaseConfig (DataBaseConfig.java:23) - Closing DB connection
