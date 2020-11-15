@@ -9,10 +9,7 @@ import com.parkit.parkingsystem.integration.service.DataBasePrepareService;
 import com.parkit.parkingsystem.model.Ticket;
 import com.parkit.parkingsystem.service.ParkingService;
 import com.parkit.parkingsystem.util.InputReaderUtil;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -24,6 +21,7 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 @ExtendWith(MockitoExtension.class)
+@DisplayName("Integration tests")
 public class ParkingDataBaseIT {
 
     private static DataBaseTestConfig dataBaseTestConfig = new DataBaseTestConfig();
@@ -56,17 +54,25 @@ public class ParkingDataBaseIT {
     }
 
     @Test
+    @DisplayName("Test ticket saved in db and parking table updated")
     public void testParkingACar(){
+        // GIVEN
     	int previousSlot = parkingSpotDAO.getNextAvailableSlot(ParkingType.CAR);
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
+
+        // WHEN
         parkingService.processIncomingVehicle();
+
+        // THEN
         //TODO: check that a ticket is actualy saved in DB and Parking table is updated with availability
         assertThat(ticketDAO.getTicket("ABCDEF")).isInstanceOf(Ticket.class);
         assertThat(previousSlot + 1).isEqualTo(parkingSpotDAO.getNextAvailableSlot(ParkingType.CAR));
     }
 
     @Test
+    @DisplayName("check fare generated and out time populated correctly in database")
     public void testParkingLotExit(){
+        //GIVEN
         testParkingACar();
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
         try {
@@ -76,11 +82,15 @@ public class ParkingDataBaseIT {
 			e.printStackTrace();
 		}
         Date timeNow = new Date();
+
+        // WHEN
         parkingService.processExitingVehicle();
         Ticket ticket = ticketDAO.getTicket("ABCDEF");
         long inMillies = ticket.getInTime().getTime();
         long outMillies = ticket.getOutTime().getTime();
         float duration = (float)TimeUnit.MINUTES.convert((outMillies - inMillies), TimeUnit.MILLISECONDS) / 60;
+
+        // THEN
         //TODO: check that the fare generated and out time are populated correctly in the database
         assertThat(duration * Fare.CAR_RATE_PER_HOUR).isEqualTo(ticket.getPrice());
         assertThat(timeNow).isEqualToIgnoringMinutes(ticket.getOutTime());
